@@ -1,3 +1,7 @@
+# Build From Scratch #3: Countries of the World
+
+* GOAL > Load list of countries from Supabase
+
 # Alchemy React Base Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
