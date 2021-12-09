@@ -19,7 +19,10 @@ function App() {
     <div className="App">
       <h1>Countries of the World</h1>
       {countries.map((c) => (
-        <p key={c.id}>{c.name}</p>
+        <p key={c.id}>
+          <img src={`https://flagcdn.com/16x12/${c.iso2.toLowerCase()}.png`} />
+          {c.name}
+        </p>
       ))}
     </div>
   );
