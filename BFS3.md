@@ -15,15 +15,15 @@ There is a database provided to you that contains all the countries in the world
 ## Acceptance Criteria
     [x] Must use the Supabase client to get the list of countries
     [x] Must use the useEffect hook to call the service layer to get the list of countries
-    [ ] Users should see a list of all the countries of the world with their flag
+    [x] Users should see a list of all the countries of the world with their flag
     [ ] Users should be able to filter by continent, and search by name for the countries
 
 ## Rubric
     [x] Supabase client correctly retrieves the list of countries	4
     [x] useEffect correctly loads the list of countries when the component renders	4
-    [ ] Users can filter by continent	4
+    [x] Users can filter by continent	4
     [ ] Users can search by name	4
-    [ ] Deployed on Netlify	4
+    [x] Deployed on Netlify	4
 
 ### Stretch (up to 3 points)
     [ ] Allow users to sort by name (+2) 
