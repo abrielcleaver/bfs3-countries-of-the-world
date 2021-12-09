@@ -24,7 +24,9 @@ function App() {
       );
     });
   }
+
   if (loading) return <h1>Please wait....</h1>;
+
   return (
     <div className="App">
       <h1>Countries of the World</h1>
