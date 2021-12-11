@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   const [loading, setLoading] = useState(true);
   const [countries, setCountries] = useState([]);
-  const [continent, setContinents] = useState(['All']);
-  const [query, setQuery] = useState(['']);
+  const [continent, setContinents] = useState('All');
+  const [query, setQuery] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,7 +35,7 @@ function App() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <select value={continent} onChange={(e) => setContinents(e.target.value)}>
+      <select onChange={(e) => setContinents(e.target.value)}>
         <option value="All">All</option>
         <option value="Africa">Africa</option>
         <option value="Antarctica">Antarctica</option>
